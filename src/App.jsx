@@ -11,16 +11,16 @@
 // }
 
 // export default App;
-
 import Navbar from "./layout/Navbar";
 import HeroSection from "./sections/HeroSection";
+import StatsSection from "./sections/StatsSection";
 
 const App = () => {
   return (
     <>
       <Navbar />
-
       <HeroSection />
+      <StatsSection />
     </>
   );
 };

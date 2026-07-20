@@ -49,4 +49,24 @@ export const portfolio = {
   linkedin: "https://linkedin.com/in/elijah-promise-aa1727310",
 
   resume: "/resume.pdf",
+
+  stats: [
+    {
+      number: "4+",
+      title: "Production Projects",
+    },
+    {
+      number: "13+",
+      title: "Technologies",
+    },
+    {
+      number: "10+",
+      title: "Core Technologies",
+    },
+    {
+      number: "∞",
+      title: "Always Learning",
+    },
+  ],
 };
+
