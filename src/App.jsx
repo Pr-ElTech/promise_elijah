@@ -11,16 +11,20 @@
 // }
 
 // export default App;
-
 import Navbar from "./layout/Navbar";
 import HeroSection from "./sections/HeroSection";
+import StatsSection from "./sections/StatsSection";
+import ProjectsSection from "./sections/ProjectsSection";
+import TrustedProducts from "./sections/TrustedProducts";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-
-      <HeroSection />
+<Navbar />
+<HeroSection />
+<StatsSection />
+<TrustedProducts />
+<ProjectsSection />
     </>
   );
 };

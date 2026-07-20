@@ -14,13 +14,22 @@ const HeroImage = () => {
       <div className="absolute h-[420px] w-[420px] rounded-full bg-blue-600/20 blur-3xl"></div>
 
       {/* Image Card */}
-      <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
-        <img
-          src={heroImage}
-          alt="Promise Elijah"
-          className="h-[600px] w-[460px] object-cover"
-        />
-      </div>
+      <div className="relative">
+
+    <div className="absolute inset-0 bg-blue-500/20 blur-3xl rounded-3xl"></div>
+
+    <img
+        src={heroImage}
+        alt="Promise Elijah"
+        className="
+            relative
+            rounded-3xl
+            border border-slate-700
+            shadow-[0_30px_80px_rgba(37,99,235,.25)]
+        "
+    />
+
+</div>
     </motion.div>
   );
 };
