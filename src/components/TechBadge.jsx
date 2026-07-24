@@ -1,14 +1,23 @@
-import { motion } from "framer-motion";
-
-const TechBadge = ({ icon, title }) => {
+const TechBadge = ({ tech }) => {
   return (
-    <motion.div
-      whileHover={{ y: -5 }}
-      className="px-4 py-2 rounded-full bg-slate-900 border border-slate-700 flex items-center gap-2"
+    <span
+      className="
+        rounded-full
+        border
+        border-slate-700
+        bg-slate-900/70
+        px-4
+        py-2
+        text-sm
+        text-slate-300
+        transition-all
+        duration-300
+        hover:border-blue-500
+        hover:text-blue-400
+      "
     >
-      {icon}
-      <span className="text-sm">{title}</span>
-    </motion.div>
+      {tech}
+    </span>
   );
 };
 
