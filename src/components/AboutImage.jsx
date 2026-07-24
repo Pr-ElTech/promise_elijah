@@ -1,4 +1,4 @@
-import promiseImage from "../assets/image/promiseimage.png";
+import promiseImage from "../assets/image/promiseImage.png";
 
 const AboutImage = () => {
   return (
